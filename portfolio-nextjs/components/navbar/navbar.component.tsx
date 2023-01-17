@@ -15,6 +15,8 @@ function Navbar() {
           <li className={styles.list__item}>Blogs</li>
           <li className={styles.list__item}>Contacts</li>
         </ul>
+
+        <button className={styles.hire__btn}>Hire Me</button>
       </div>
     </>
   );
