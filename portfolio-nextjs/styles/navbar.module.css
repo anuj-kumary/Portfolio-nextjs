@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.list__item{
+    list-style-type: none;
+    padding-right: 1rem;
+    font-size: 18px;
+}
+.menu__list{
+    display: flex;
+}
