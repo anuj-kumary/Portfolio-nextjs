@@ -1,0 +1,9 @@
+.main__container{
+    width: 100%;
+}
+.left__container{
+    width: 50%;
+}
+.heading{
+    font-size: 5rem;
+}
