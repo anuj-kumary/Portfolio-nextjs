@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import React from "react";
 import styles from "../../styles/homepage.module.css";
 
@@ -10,7 +10,12 @@ function HomePage() {
           <h2 className={styles.heading}>Hello! I’m Anujkumar Yadav</h2>
         </div>
         <div className={styles.right__container}>
-          <img src="/public/anuj.png" alt="Profile" />
+          <Image
+            src="/Anuj1.png"
+            alt="Picture of the author"
+            width={500}
+            height={500}
+          />
         </div>
       </div>
     </>

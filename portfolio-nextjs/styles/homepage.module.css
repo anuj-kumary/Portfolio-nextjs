@@ -1,5 +1,6 @@
 .main__container{
     width: 100%;
+    display: flex;
 }
 .left__container{
     width: 50%;
